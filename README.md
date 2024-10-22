@@ -1,9 +1,18 @@
 # 2024-Ca-channel-manuscript
 The pdb file here is an example of the motif with C4 symmetry used to define the framework of the pore.
 
-To generate the helices that form the lining of the pore, the .sh file is an example script to run RFdiffusion.
+To design a channel starting from the motif pdb file:
 
-To generate the channel backbone, the .sh file is an example script to run RFdiffusion to add L residues in each monomer.
+(1) Run the example .sh script to generate the pore-lining secondary structures using RFdiffusion.
 
-To design sequences, the .sh file is an example script to run ProteinMPNN 
-The xxx folder contains an example input folder for runnign ProteinMPNN.
+(2) Run the example .sh script to generate the protein backbone of the channels with L residues in each monomer using RFdiffusion.
+
+(3) Run the .sh file or .sh file to design sequences on the generated protein backbones using ProteinMPNN or LigandMPNN, respectively.
+
+## Relevant repositores
+
+RFdiffusion:
+
+ProteinMPNN:
+
+LigandMPNN:
