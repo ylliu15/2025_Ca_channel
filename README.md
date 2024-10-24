@@ -8,11 +8,12 @@ To design a channel starting from the motif pdb file:
 (2) Run the example .sh script to generate the protein backbone of the channels with L residues in each monomer using RFdiffusion.
 
 (3) Run the .sh file or .sh file to design sequences on the generated protein backbones using ProteinMPNN or LigandMPNN, respectively.
+    - The omit_AA.jsonl file is an example for adding position-specfic amino acid constraints
 
 ## Relevant repositores
 
-RFdiffusion:
+RFdiffusion: https://github.com/RosettaCommons/RFdiffusion
 
-ProteinMPNN:
+ProteinMPNN: https://github.com/dauparas/ProteinMPNN
 
-LigandMPNN:
+LigandMPNN: https://github.com/dauparas/LigandMPNN
