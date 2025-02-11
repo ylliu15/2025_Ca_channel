@@ -38,5 +38,5 @@ AlphaFold3: https://alphafoldserver.com/welcome
 - Optional: To exclude specific amino acids at specific positions, edit and use the `example_omit_AA.jsonl`.
   - Instructions on editing/making new `example_omit_AA.jsonl` files can be found inside `03_sequence_design_MPNN.sh`.
 
-### To predict the structures encoded by the generated sequences, Alphafold2 or Alphafold3 can be used (links attached below).
+### To predict the structures encoded by the generated sequences, AlphaFold2 or AlphaFold3 can be used (links attached below).
 
