@@ -3,7 +3,7 @@
 Here shows the example commands to design a Ca channel from defined selectivity filter geometry.
 
 
-## Relevant repositores
+## Relevant repositories
 
 RFdiffusion: https://github.com/RosettaCommons/RFdiffusion
 
