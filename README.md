@@ -27,7 +27,7 @@ AlphaFold3: https://alphafoldserver.com/welcome
 
 - The pore helices generated at step 1 (e.g., `01_example_pore_helix.pdb`) are used as the input at this step.
 - Set up the environment (SE3nv) for running RFdiffusion.
-- Run the `02_generate_backbone.sh` to build the protein scaffold. This step normally takes 1 hour per job for a protein backbone consisting of 600-800 amino acids.
+- Run the `02_generate_backbone.sh` to build the protein scaffold. This step normally takes 30-60 minutes per job for a protein backbone consisting of 600-800 amino acids.
 - A good output will look like `02_example_backbone.pdb`.
   
 ### Step 3: Protein sequence design
